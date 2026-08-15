@@ -1,0 +1,40 @@
+# ---- Copyrighted / huge RE inputs (never commit) ----
+*.ipa
+
+# extracted app bundle
+work/
+
+# DJI binaries + IDA databases (keep only the folder README)
+ida_targets/*
+!ida_targets/README.md
+
+*.i64
+*.idb
+*.til
+*.nam
+*.id0
+*.id1
+*.id2
+
+# ---- Large raw string dumps (keep curated lists only) ----
+research/strings/_all.txt
+research/strings/sdk_types.txt
+research/strings/sdk_mangled.txt
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# ---- OS / editor ----
+.DS_Store
+*.swp
+.idea/
+.vscode/

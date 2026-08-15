@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pocket3-control"
+version = "0.2.0"
+description = "Independent local control SDK for DJI Osmo Pocket 3 (interoperability research)"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [{ name = "Pocket3 Control SDK contributors" }]
+keywords = ["dji", "osmo", "pocket3", "duml", "camera-control", "reverse-engineering"]
+dependencies = [
+    "bleak>=0.22",   # cross-platform BLE (CoreBluetooth on macOS)
+]
+
+[project.optional-dependencies]
+preview = ["av>=11"]     # optional H.264/H.265 decode for live preview
+dev = ["pytest>=7"]
+
+[project.scripts]
+pocket3 = "pocket3.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

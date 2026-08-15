@@ -1,0 +1,71 @@
+auto BindAccountWithDeviceAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)::(anonymous class)::operator()(int, const json11::Json &) const
+auto BindAccountWithDeviceAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)::(anonymous class)::operator()(int, uint32_t, std::shared_ptr<const ActivateComponentInfoMsg>, std::shared_ptr<const ActivateStateMsg>) const
+auto BLECtrlBroadCastAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)::(anonymous class)::operator()(int, DJIValuePtr) const
+auto CancelReMuxMediaFileAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)::(anonymous class)::operator()(int) const
+auto ExecuteGuiCmdAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)::(anonymous class)::operator()(int, DJIValuePtr) const
+auto FinishAutoRecAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)::(anonymous class)::operator()(int, DJIValuePtr) const
+auto ForceUpdateCacheValueAction(dji::sdk::key::KeyHandlers *, const dji::sdk::Characteristics &, const dji::sdk::DJIValuePtr &, const dji::sdk::ActionCallback &)::(anonymous class)::operator()(int, dji::sdk::DJIValuePtr) const
+auto NfcWriteAppPackageNameAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)::(anonymous class)::operator()(int, DJIValuePtr) const
+auto OpenLogTransmissionPortAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)::(anonymous class)::operator()(int, const ActionResultValue &) const
+auto PlayBack020CAction(KeyHandlers *, const Characteristics &, bool, const ActionCallback &)::(anonymous class)::operator()(int, DJIValuePtr) const
+auto PullHighLightAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)::(anonymous class)::operator()(const typename set_camera_expansion_cmd_pack::RspType *, uint32_t) const
+auto QueryInsuranceInfoAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)::(anonymous class)::operator()(int, const json11::Json &) const
+auto ReMuxMediaFileAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)::(anonymous class)::operator()(int) const
+auto RequestBoundDeviceListAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)::(anonymous class)::operator()(int, const json11::Json &) const
+auto RequestDeviceBindingInfoAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)::(anonymous class)::operator()(int, const json11::Json &) const
+auto RotateByAngleNewAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)::(anonymous class)::operator()(int, const dji_cmd_rsp *) const
+auto StartIOSScreenMirroringAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)::(anonymous class)::operator()(int, const ActionResultValue &) const
+auto StartRecordAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)::(anonymous class)::operator()(int, DJIValuePtr) const
+auto StartWlMicStorageFormatAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)::(anonymous class)::operator()(auto &, auto) const [req:auto = dji_camera_set_audio_param_req, msg:auto = std::shared_ptr<const dji::sdk::StartWlMicStorageFormatMsg>]
+auto StopGroundWiFiAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)::(anonymous class)::operator()(int, ActionResultValue) const
+auto StopRecordAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)::(anonymous class)::operator()(int, DJIValuePtr) const
+auto SubGimbalCapAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)::(anonymous class)::operator()(int, std::shared_ptr<const DjiValue>) const
+auto SuperSlowMotionPointOprAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)::(anonymous class)::operator()(int) const
+auto UnbindAccountWithDeviceAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)::(anonymous class)::operator()(int, const json11::Json &) const
+auto UpdateCalibrationFileWithNameAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)::(anonymous class)::operator()(std::shared_ptr<ICommonTransferFileMgr>, DJICommonFileTransferSessionState, uint32_t, uint32_t) const
+auto VerifyAccessLockerPwdAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)::(anonymous class)::operator()(int, DJIValuePtr) const
+auto WlMicPairOprAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)::(anonymous class)::operator()(auto &, auto) const [req:auto = dji_camera_set_audio_param_req, msg:auto = std::shared_ptr<const dji::sdk::IntMsg>]
+int BindAccountWithDeviceAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)
+int BLECtrlBroadCastAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)
+int CancelReMuxMediaFileAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)
+int EnterAudioPlayBackAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)
+int EnterPlayBack020CAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)
+int EnterPlayBackAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)
+int ExecuteGuiCmdAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)
+int ExitAudioPlayBackAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)
+int ExitPlayBack020CAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)
+int ExitPlayBackAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)
+int FinishAutoRecAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)
+int ForceUpdateCacheValueAction(dji::sdk::key::KeyHandlers *, const dji::sdk::Characteristics &, const dji::sdk::DJIValuePtr &, const dji::sdk::ActionCallback &)
+int MicChangePasswordAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)
+int MicCheckAndUnlockPasswordAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)
+int MicCheckPasswordAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)
+int MicCreatePasswordAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)
+int MicResetPasswordAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)
+int MotionLapsePreviewAction(dji::sdk::key::KeyHandlers *, const dji::sdk::Characteristics &, const dji::sdk::DJIValuePtr &, const dji::sdk::ActionCallback &)
+int MotionLapsePreviewInterruptAction(dji::sdk::key::KeyHandlers *, const dji::sdk::Characteristics &, const dji::sdk::DJIValuePtr &, const dji::sdk::ActionCallback &)
+int NfcWriteAppPackageNameAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)
+int OpenLogTransmissionPortAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)
+int OpticalZoomModeRatioAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)
+int PlayBack020CAction(KeyHandlers *, const Characteristics &, bool, const ActionCallback &)
+int PullHighLightAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)
+int PullSuperSlowMotionPointAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)
+int ReMuxMediaFileAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)
+int RequestBoundDeviceListAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)
+int RequestDeviceBindingInfoAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)
+int ResetGimbalAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)
+int RotateByAngleNewAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)
+int SaveCustomModeSettingAction(dji::sdk::key::KeyHandlers *, const dji::sdk::Characteristics &, const dji::sdk::DJIValuePtr &, const dji::sdk::ActionCallback &)
+int ScreenDragGimbalAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)
+int SilentTransReportAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)
+int StartIOSScreenMirroringAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)
+int StartRecordAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)
+int StopGroundWiFiAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)
+int StopRecordAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)
+int StopRecordWithCheckPrecordAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)
+int SubGimbalCapAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)
+int SuperSlowMotionPointOprAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)
+int ToggleCameraLiveViewAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)
+int UnbindAccountWithDeviceAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)
+int UpdateModelAuthInfoAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)
+int VerifyAccessLockerPwdAction(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ActionCallback &)

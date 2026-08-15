@@ -1,0 +1,2 @@
+# Runtime deps for the Pocket 3 control client
+bleak>=0.22        # cross-platform BLE (CoreBluetooth on macOS)
